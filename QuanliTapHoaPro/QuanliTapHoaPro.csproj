@@ -64,99 +64,99 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Categories.cs">
+    <Compile Include="Usercontrol\Categories.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Categories.Designer.cs">
+    <Compile Include="Usercontrol\Categories.Designer.cs">
       <DependentUpon>Categories.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboardc.cs">
+    <Compile Include="Usercontrol\Dashboardc.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Dashboardc.Designer.cs">
+    <Compile Include="Usercontrol\Dashboardc.Designer.cs">
       <DependentUpon>Dashboardc.cs</DependentUpon>
     </Compile>
-    <Compile Include="ControlUser.cs">
+    <Compile Include="Usercontrol\ControlUser.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ControlUser.Designer.cs">
+    <Compile Include="Usercontrol\ControlUser.Designer.cs">
       <DependentUpon>ControlUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeMain.cs">
+    <Compile Include="window\EmployeeMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmployeeMain.Designer.cs">
+    <Compile Include="window\EmployeeMain.Designer.cs">
       <DependentUpon>EmployeeMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeOrder.cs">
+    <Compile Include="Usercontrol\EmployeeOrder.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="EmployeeOrder.Designer.cs">
+    <Compile Include="Usercontrol\EmployeeOrder.Designer.cs">
       <DependentUpon>EmployeeOrder.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="window\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="window\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main.cs">
+    <Compile Include="window\Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
+    <Compile Include="window\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductMenu.cs">
+    <Compile Include="Usercontrol\ProductMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ProductMenu.Designer.cs">
+    <Compile Include="Usercontrol\ProductMenu.Designer.cs">
       <DependentUpon>ProductMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Register.cs">
+    <Compile Include="window\Register.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Register.Designer.cs">
+    <Compile Include="window\Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Usercontrol\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="showData.cs" />
-    <Compile Include="showDataCustomer.cs" />
-    <Compile Include="showDataOrder.cs" />
-    <Compile Include="showDataProduct.cs" />
-    <Compile Include="showDateCategories.cs" />
-    <Compile Include="showSupplierData.cs" />
-    <Compile Include="Supplier.cs">
+    <Compile Include="Data\showData.cs" />
+    <Compile Include="Data\showDataCustomer.cs" />
+    <Compile Include="Data\showDataOrder.cs" />
+    <Compile Include="Data\showDataProduct.cs" />
+    <Compile Include="Data\showDateCategories.cs" />
+    <Compile Include="Data\showSupplierData.cs" />
+    <Compile Include="Usercontrol\Supplier.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Supplier.Designer.cs">
+    <Compile Include="Usercontrol\Supplier.Designer.cs">
       <DependentUpon>Supplier.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Categories.resx">
+    <EmbeddedResource Include="Usercontrol\Categories.resx">
       <DependentUpon>Categories.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboardc.resx">
+    <EmbeddedResource Include="Usercontrol\Dashboardc.resx">
       <DependentUpon>Dashboardc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ControlUser.resx">
+    <EmbeddedResource Include="Usercontrol\ControlUser.resx">
       <DependentUpon>ControlUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmployeeMain.resx">
+    <EmbeddedResource Include="window\EmployeeMain.resx">
       <DependentUpon>EmployeeMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmployeeOrder.resx">
+    <EmbeddedResource Include="Usercontrol\EmployeeOrder.resx">
       <DependentUpon>EmployeeOrder.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="window\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
+    <EmbeddedResource Include="window\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductMenu.resx">
+    <EmbeddedResource Include="Usercontrol\ProductMenu.resx">
       <DependentUpon>ProductMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Register.resx">
+    <EmbeddedResource Include="window\Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -169,7 +169,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Supplier.resx">
+    <EmbeddedResource Include="Usercontrol\Supplier.resx">
       <DependentUpon>Supplier.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -203,6 +203,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Thumb-hinh-nen-dep-nhat-the-gioi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dashboard Layout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Category.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Product.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Purchase Order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Male.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-880476630-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Package.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Customer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heavy Dollar Sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Secure.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
